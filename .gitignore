@@ -1,0 +1,68 @@
+# Go specific
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+
+# Go build and debug files
+/bin/
+/pkg/
+/vendor/
+*.log
+
+# Protobuf generated files
+*.pb.go
+*.pb.gw.go
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Client-server specific
+/client/client
+/server/server
+
+# Environment files
+.env
+*.env.local
+
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+
+# Output of the go coverage tool
+*.coverprofile
+
+# Temporary files
+*.tmp
+*.bak
+
+# Compiled protobuf files (if you want to ignore them)
+# *.pb.go
+
+# If you're using a tool like GoReleaser
+dist/
+
+# If you're using Air for live reloading
+tmp/
+
+# If you're using delve debugger
+debug
+
+# If you're using a database, you might want to ignore data files
+*.db
+*.sqlite
+
+# Ignore any local configuration files
+config.local.yaml
